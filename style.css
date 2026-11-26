@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;}
+body{
+    margin: 0;}
+
+.interface{
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    min-height: 100vh;
+}
+.conteudo{
+    min-width: 0;
+    padding: 32px;
+    background-color: #f7f8fa;
+}
+.menu{
+    padding: 24px 8px;
+    background-color: #071b29;
+    a{
+        display: block;
+        margin-bottom: 8px;
+        padding: 12px 4px;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        text-align: center;}
+    a:hover{
+        background-color: #163645;}
+    a.ativo{
+        background-color: #6cf2bc;
+        color: #071b29;
+    }
+}
+.marca{
+    display: block;
+    margin-bottom: 30px;
+    color: #6cf2bc;
+    text-align: center;
+}
+
+
+
+.barra-superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;}
+.barra-superior input{
+    padding: 12px;
+    border: 1px solid #dce3e0;
+    border-radius: 8px;}
+.apresentacao{
+    margin: 40px 0 20px;}
+.apresentacao h1{
+    margin: 8px 0;
+    font-size: 40px;}
+.area-trabalho{
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 24px;}
+.painel{
+    min-width: 0;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #dce3e0;
+    border-radius: 16px;}
+.painel h2{
+    margin-top: 0;}
+.atividades{
+    margin-top: 24px;}
+
+.cartao-tarefa{
+    margin-top: 16px;
+    padding: 20px;
+    border: 1px solid #dce3e0;
+    border-radius: 12px;}
+.cartao-tarefa h3{ 
+    margin: 12px 0 8px;}
+.cartao-tarefa p{
+    color: #52616b;}
+
+.tipo-tarefa{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #07575d;
+}
+.botao {
+    padding: 12px 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #07435d;
+    color: white;
+    font: inherit;
+    cursor: pointer;}
+.botao:hover{
+    background-color: #033043;
+}
+
+.acoes{
+    background-color: #075d5c;
+    color: white;
+}
+.acoes .botao{
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    background-color: white;
+    color: #075d5c;}
+
+.acoes .botao:hover{
+    background-color: #d9f3fb;}
+
+.lista-atividades{
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+.lista-atividades li{
+    padding: 15px 0;
+    border-bottom: 1px solid #e8eeeb;
+}
